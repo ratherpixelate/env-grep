@@ -1,5 +1,4 @@
-from env_guard.checker import check, parse_env_example
-
+from env_grep.checker import check, parse_env_example
 
 def test_parse_env_example_basic(tmp_path):
     env_file = tmp_path / ".env.example"

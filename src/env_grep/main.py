@@ -2,8 +2,8 @@ import typer
 from rich.console import Console
 from rich.table import Table
 
-from env_guard.scanner import scan_directory
-from env_guard.checker import parse_env_example, check
+from env_grep.scanner import scan_directory
+from env_grep.checker import parse_env_example, check
 
 app = typer.Typer()
 console = Console()

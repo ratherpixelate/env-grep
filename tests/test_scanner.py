@@ -1,5 +1,4 @@
-from env_guard.scanner import extract_env_vars, find_py_files, scan_directory
-
+from env_grep.scanner import extract_env_vars, find_py_files, scan_directory
 
 def test_extract_env_vars_detects_getenv(tmp_path):
     file = tmp_path / "app.py"

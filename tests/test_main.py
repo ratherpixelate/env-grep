@@ -1,6 +1,6 @@
 from typer.testing import CliRunner
 
-from env_guard.main import app
+from env_grep.main import app
 
 runner = CliRunner()
 
