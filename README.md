@@ -24,13 +24,11 @@ Environment variable mismatches are a common source of production failures — a
 ## Installation
 
 ```bash
+# Recommended — installs as a global CLI tool
+uv tool install env-grep
+
+# With pip (inside a virtual environment)
 pip install env-grep
-```
-
-Or with [uv](https://github.com/astral-sh/uv):
-
-```bash
-uv add env-grep
 ```
 
 ---
