@@ -1,0 +1,48 @@
+site_name: env-grep
+site_description: A command-line tool that scans Python projects for missing or undocumented environment variables.
+site_url: https://ratherpixelate.github.io/env-grep
+repo_url: https://github.com/ratherpixelate/env-grep
+repo_name: ratherpixelate/env-grep
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - content.code.copy
+    - content.code.annotate
+    - search.highlight
+    - search.suggest
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
